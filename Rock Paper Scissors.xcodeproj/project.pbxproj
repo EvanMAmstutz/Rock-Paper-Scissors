@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36337B201BA7A49B0012519C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B1F1BA7A49B0012519C /* AppDelegate.swift */; };
+		36337B221BA7A49B0012519C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B211BA7A49B0012519C /* ViewController.swift */; };
+		36337B251BA7A49B0012519C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36337B231BA7A49B0012519C /* Main.storyboard */; };
+		36337B271BA7A49B0012519C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36337B261BA7A49B0012519C /* Assets.xcassets */; };
+		36337B2A1BA7A49B0012519C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36337B281BA7A49B0012519C /* LaunchScreen.storyboard */; };
+		36337B351BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */; };
+		36337B401BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36337B311BA7A49B0012519C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36337B141BA7A49A0012519C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36337B1B1BA7A49A0012519C;
+			remoteInfo = "Rock Paper Scissors";
+		};
+		36337B3C1BA7A49B0012519C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36337B141BA7A49A0012519C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36337B1B1BA7A49A0012519C;
+			remoteInfo = "Rock Paper Scissors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36337B1C1BA7A49A0012519C /* Rock Paper Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock Paper Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36337B1F1BA7A49B0012519C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36337B211BA7A49B0012519C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36337B241BA7A49B0012519C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36337B261BA7A49B0012519C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36337B291BA7A49B0012519C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36337B2B1BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36337B301BA7A49B0012519C /* Rock Paper ScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsTests.swift; sourceTree = "<group>"; };
+		36337B361BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36337B3B1BA7A49B0012519C /* Rock Paper ScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsUITests.swift; sourceTree = "<group>"; };
+		36337B411BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36337B191BA7A49A0012519C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B2D1BA7A49B0012519C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B381BA7A49B0012519C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36337B131BA7A49A0012519C = {
+			isa = PBXGroup;
+			children = (
+				36337B1E1BA7A49B0012519C /* Rock Paper Scissors */,
+				36337B331BA7A49B0012519C /* Rock Paper ScissorsTests */,
+				36337B3E1BA7A49B0012519C /* Rock Paper ScissorsUITests */,
+				36337B1D1BA7A49A0012519C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36337B1D1BA7A49A0012519C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36337B1C1BA7A49A0012519C /* Rock Paper Scissors.app */,
+				36337B301BA7A49B0012519C /* Rock Paper ScissorsTests.xctest */,
+				36337B3B1BA7A49B0012519C /* Rock Paper ScissorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36337B1E1BA7A49B0012519C /* Rock Paper Scissors */ = {
+			isa = PBXGroup;
+			children = (
+				36337B1F1BA7A49B0012519C /* AppDelegate.swift */,
+				36337B211BA7A49B0012519C /* ViewController.swift */,
+				36337B231BA7A49B0012519C /* Main.storyboard */,
+				36337B261BA7A49B0012519C /* Assets.xcassets */,
+				36337B281BA7A49B0012519C /* LaunchScreen.storyboard */,
+				36337B2B1BA7A49B0012519C /* Info.plist */,
+			);
+			path = "Rock Paper Scissors";
+			sourceTree = "<group>";
+		};
+		36337B331BA7A49B0012519C /* Rock Paper ScissorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */,
+				36337B361BA7A49B0012519C /* Info.plist */,
+			);
+			path = "Rock Paper ScissorsTests";
+			sourceTree = "<group>";
+		};
+		36337B3E1BA7A49B0012519C /* Rock Paper ScissorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */,
+				36337B411BA7A49B0012519C /* Info.plist */,
+			);
+			path = "Rock Paper ScissorsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36337B1B1BA7A49A0012519C /* Rock Paper Scissors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36337B441BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper Scissors" */;
+			buildPhases = (
+				36337B181BA7A49A0012519C /* Sources */,
+				36337B191BA7A49A0012519C /* Frameworks */,
+				36337B1A1BA7A49A0012519C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock Paper Scissors";
+			productName = "Rock Paper Scissors";
+			productReference = 36337B1C1BA7A49A0012519C /* Rock Paper Scissors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36337B2F1BA7A49B0012519C /* Rock Paper ScissorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36337B471BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsTests" */;
+			buildPhases = (
+				36337B2C1BA7A49B0012519C /* Sources */,
+				36337B2D1BA7A49B0012519C /* Frameworks */,
+				36337B2E1BA7A49B0012519C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36337B321BA7A49B0012519C /* PBXTargetDependency */,
+			);
+			name = "Rock Paper ScissorsTests";
+			productName = "Rock Paper ScissorsTests";
+			productReference = 36337B301BA7A49B0012519C /* Rock Paper ScissorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36337B3A1BA7A49B0012519C /* Rock Paper ScissorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36337B4A1BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsUITests" */;
+			buildPhases = (
+				36337B371BA7A49B0012519C /* Sources */,
+				36337B381BA7A49B0012519C /* Frameworks */,
+				36337B391BA7A49B0012519C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36337B3D1BA7A49B0012519C /* PBXTargetDependency */,
+			);
+			name = "Rock Paper ScissorsUITests";
+			productName = "Rock Paper ScissorsUITests";
+			productReference = 36337B3B1BA7A49B0012519C /* Rock Paper ScissorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36337B141BA7A49A0012519C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Evan Amstutz";
+				TargetAttributes = {
+					36337B1B1BA7A49A0012519C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QCVMW6GH92;
+					};
+					36337B2F1BA7A49B0012519C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QCVMW6GH92;
+						TestTargetID = 36337B1B1BA7A49A0012519C;
+					};
+					36337B3A1BA7A49B0012519C = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QCVMW6GH92;
+						TestTargetID = 36337B1B1BA7A49A0012519C;
+					};
+				};
+			};
+			buildConfigurationList = 36337B171BA7A49A0012519C /* Build configuration list for PBXProject "Rock Paper Scissors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36337B131BA7A49A0012519C;
+			productRefGroup = 36337B1D1BA7A49A0012519C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36337B1B1BA7A49A0012519C /* Rock Paper Scissors */,
+				36337B2F1BA7A49B0012519C /* Rock Paper ScissorsTests */,
+				36337B3A1BA7A49B0012519C /* Rock Paper ScissorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36337B1A1BA7A49A0012519C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36337B2A1BA7A49B0012519C /* LaunchScreen.storyboard in Resources */,
+				36337B271BA7A49B0012519C /* Assets.xcassets in Resources */,
+				36337B251BA7A49B0012519C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B2E1BA7A49B0012519C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B391BA7A49B0012519C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36337B181BA7A49A0012519C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36337B221BA7A49B0012519C /* ViewController.swift in Sources */,
+				36337B201BA7A49B0012519C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B2C1BA7A49B0012519C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36337B351BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36337B371BA7A49B0012519C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36337B401BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36337B321BA7A49B0012519C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36337B1B1BA7A49A0012519C /* Rock Paper Scissors */;
+			targetProxy = 36337B311BA7A49B0012519C /* PBXContainerItemProxy */;
+		};
+		36337B3D1BA7A49B0012519C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36337B1B1BA7A49A0012519C /* Rock Paper Scissors */;
+			targetProxy = 36337B3C1BA7A49B0012519C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36337B231BA7A49B0012519C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36337B241BA7A49B0012519C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36337B281BA7A49B0012519C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36337B291BA7A49B0012519C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36337B421BA7A49B0012519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36337B431BA7A49B0012519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36337B451BA7A49B0012519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-Scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36337B461BA7A49B0012519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rock Paper Scissors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-Scissors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36337B481BA7A49B0012519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rock Paper ScissorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-ScissorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Paper Scissors.app/Rock Paper Scissors";
+			};
+			name = Debug;
+		};
+		36337B491BA7A49B0012519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Rock Paper ScissorsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-ScissorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rock Paper Scissors.app/Rock Paper Scissors";
+			};
+			name = Release;
+		};
+		36337B4B1BA7A49B0012519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rock Paper ScissorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-ScissorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rock Paper Scissors";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36337B4C1BA7A49B0012519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Rock Paper ScissorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOSClass.Rock-Paper-ScissorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Rock Paper Scissors";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36337B171BA7A49A0012519C /* Build configuration list for PBXProject "Rock Paper Scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36337B421BA7A49B0012519C /* Debug */,
+				36337B431BA7A49B0012519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36337B441BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper Scissors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36337B451BA7A49B0012519C /* Debug */,
+				36337B461BA7A49B0012519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36337B471BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36337B481BA7A49B0012519C /* Debug */,
+				36337B491BA7A49B0012519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36337B4A1BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36337B4B1BA7A49B0012519C /* Debug */,
+				36337B4C1BA7A49B0012519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36337B141BA7A49A0012519C /* Project object */;
+}
