@@ -12,8 +12,13 @@
 		36337B251BA7A49B0012519C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36337B231BA7A49B0012519C /* Main.storyboard */; };
 		36337B271BA7A49B0012519C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36337B261BA7A49B0012519C /* Assets.xcassets */; };
 		36337B2A1BA7A49B0012519C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36337B281BA7A49B0012519C /* LaunchScreen.storyboard */; };
-		36337B351BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */; };
-		36337B401BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */; };
+		36576EE11BAB436A0091884E /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576EE01BAB436A0091884E /* EnterNameViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		36576EE31BAB488A0091884E /* PlayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576EE21BAB488A0091884E /* PlayGameViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		36576EE71BAC6D900091884E /* scissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36576EE41BAC6D900091884E /* scissors.jpeg */; settings = {ASSET_TAGS = (); }; };
+		36576EE81BAC6D900091884E /* paper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36576EE51BAC6D900091884E /* paper.jpeg */; settings = {ASSET_TAGS = (); }; };
+		36576EE91BAC6D900091884E /* rock.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 36576EE61BAC6D900091884E /* rock.jpeg */; settings = {ASSET_TAGS = (); }; };
+		36576EEB1BAC714C0091884E /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576EEA1BAC714C0091884E /* WinnerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		36576EED1BAC724D0091884E /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36576EEC1BAC724D0091884E /* LeaderboardViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +47,14 @@
 		36337B291BA7A49B0012519C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36337B2B1BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36337B301BA7A49B0012519C /* Rock Paper ScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsTests.swift; sourceTree = "<group>"; };
-		36337B361BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36337B3B1BA7A49B0012519C /* Rock Paper ScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rock Paper ScissorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorsUITests.swift; sourceTree = "<group>"; };
-		36337B411BA7A49B0012519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36576EE01BAB436A0091884E /* EnterNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		36576EE21BAB488A0091884E /* PlayGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameViewController.swift; sourceTree = "<group>"; };
+		36576EE41BAC6D900091884E /* scissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scissors.jpeg; sourceTree = "<group>"; };
+		36576EE51BAC6D900091884E /* paper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpeg; sourceTree = "<group>"; };
+		36576EE61BAC6D900091884E /* rock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpeg; sourceTree = "<group>"; };
+		36576EEA1BAC714C0091884E /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+		36576EEC1BAC724D0091884E /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				36337B1E1BA7A49B0012519C /* Rock Paper Scissors */,
-				36337B331BA7A49B0012519C /* Rock Paper ScissorsTests */,
-				36337B3E1BA7A49B0012519C /* Rock Paper ScissorsUITests */,
 				36337B1D1BA7A49A0012519C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +103,21 @@
 		36337B1E1BA7A49B0012519C /* Rock Paper Scissors */ = {
 			isa = PBXGroup;
 			children = (
+				36576EE41BAC6D900091884E /* scissors.jpeg */,
+				36576EE51BAC6D900091884E /* paper.jpeg */,
+				36576EE61BAC6D900091884E /* rock.jpeg */,
 				36337B1F1BA7A49B0012519C /* AppDelegate.swift */,
 				36337B211BA7A49B0012519C /* ViewController.swift */,
 				36337B231BA7A49B0012519C /* Main.storyboard */,
+				36576EEC1BAC724D0091884E /* LeaderboardViewController.swift */,
 				36337B261BA7A49B0012519C /* Assets.xcassets */,
 				36337B281BA7A49B0012519C /* LaunchScreen.storyboard */,
 				36337B2B1BA7A49B0012519C /* Info.plist */,
+				36576EE01BAB436A0091884E /* EnterNameViewController.swift */,
+				36576EE21BAB488A0091884E /* PlayGameViewController.swift */,
+				36576EEA1BAC714C0091884E /* WinnerViewController.swift */,
 			);
 			path = "Rock Paper Scissors";
-			sourceTree = "<group>";
-		};
-		36337B331BA7A49B0012519C /* Rock Paper ScissorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				36337B341BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift */,
-				36337B361BA7A49B0012519C /* Info.plist */,
-			);
-			path = "Rock Paper ScissorsTests";
-			sourceTree = "<group>";
-		};
-		36337B3E1BA7A49B0012519C /* Rock Paper ScissorsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				36337B3F1BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift */,
-				36337B411BA7A49B0012519C /* Info.plist */,
-			);
-			path = "Rock Paper ScissorsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36576EE91BAC6D900091884E /* rock.jpeg in Resources */,
+				36576EE81BAC6D900091884E /* paper.jpeg in Resources */,
 				36337B2A1BA7A49B0012519C /* LaunchScreen.storyboard in Resources */,
 				36337B271BA7A49B0012519C /* Assets.xcassets in Resources */,
+				36576EE71BAC6D900091884E /* scissors.jpeg in Resources */,
 				36337B251BA7A49B0012519C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36576EE11BAB436A0091884E /* EnterNameViewController.swift in Sources */,
 				36337B221BA7A49B0012519C /* ViewController.swift in Sources */,
+				36576EE31BAB488A0091884E /* PlayGameViewController.swift in Sources */,
 				36337B201BA7A49B0012519C /* AppDelegate.swift in Sources */,
+				36576EED1BAC724D0091884E /* LeaderboardViewController.swift in Sources */,
+				36576EEB1BAC714C0091884E /* WinnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36337B351BA7A49B0012519C /* Rock_Paper_ScissorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36337B401BA7A49B0012519C /* Rock_Paper_ScissorsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +484,7 @@
 				36337B461BA7A49B0012519C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36337B471BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				36337B491BA7A49B0012519C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36337B4A1BA7A49B0012519C /* Build configuration list for PBXNativeTarget "Rock Paper ScissorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				36337B4C1BA7A49B0012519C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
